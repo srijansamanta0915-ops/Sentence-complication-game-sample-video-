@@ -5,64 +5,21 @@ int main()
     int choice;
     int score = 0;
 
-    printf("=================================\n");
-    printf("       WORD PICTURE MATCHING\n");
-    printf("=================================\n\n");
+    printf("========================================\n");
+    printf("       SENTENCE COMPLETION GAME\n");
+    printf("========================================\n\n");
 
-    printf("Match each word with the correct picture.\n\n");
+    printf("Complete the sentence by choosing the correct word \n");
+    printf("Enter the number of your answer \n\n");
 
-    printf("Pictures:\n");
-    printf("1.  [APPLE]\n");
-    printf("2.  [CAR]\n");
-    printf("3.  [DOG]\n");
-    printf("4.  [SUN]\n");
-    printf("5.  [BOOK]\n");
-    printf("6.  [BALL]\n");
-    printf("7.  [TREE]\n");
-    printf("8.  [HOUSE]\n");
-    printf("9.  [FISH]\n");
-    printf("10. [CHAIR]\n");
-    printf("11. [CAT]\n");
-    printf("12. [PEN]\n");
-    printf("13. [FLOWER]\n");
-    printf("14. [BIRD]\n");
-    printf("15. [TABLE]\n");
-    printf("16. [CLOCK]\n");
-    printf("17. [PHONE]\n");
-    printf("18. [CUP]\n");
-    printf("19. [SHOES]\n");
-    printf("20. [BOTTLE]\n\n");
-
-
-    // ROUND 1
-    printf("=================================\n");
-    printf("             ROUND 1\n");
-    printf("=================================\n\n");
 
     // Question 1
-    printf("Question 1\n");
-    printf("Word: HOUSE\n");
-    printf("Enter the picture number: ");
-    scanf("%d", &choice);
+    printf("1: The boy is drinking ____ \n");
+    printf("   1: Water\n");
+    printf("   2: Running\n");
+    printf("   3: Blue\n");
 
-    if (choice == 8)
-    {
-        printf("Correct!\n\n");
-        score++;
-    }
-    else if (choice >= 1 && choice <= 20)
-    {
-        printf("Wrong! HOUSE is picture number 8.\n\n");
-    }
-    else
-    {
-        printf("Invalid choice!\n\n");
-    }
-
-    // Question 2
-    printf("Question 2\n");
-    printf("Word: APPLE\n");
-    printf("Enter the picture number: ");
+    printf("Enter your answer: ");
     scanf("%d", &choice);
 
     if (choice == 1)
@@ -70,105 +27,55 @@ int main()
         printf("Correct!\n\n");
         score++;
     }
-    else if (choice >= 1 && choice <= 20)
+    else if (choice == 2)
     {
-        printf("Wrong! APPLE is picture number 1.\n\n");
+        printf("Wrong! The correct answer is Water \n\n");
+    }
+    else if (choice == 3)
+    {
+        printf("Wrong! The correct answer is Water \n\n");
     }
     else
     {
-        printf("Invalid choice!\n\n");
+        printf("Invalid choice \n\n");
     }
+
+
+    // Question 2
+    printf("2: The cat is sleeping ____ the chair \n");
+    printf("   1: On\n");
+    printf("   2: Running\n");
+    printf("   3: Quickly\n");
+
+    printf("Enter your answer: ");
+    scanf("%d", &choice);
+
+    if (choice == 1)
+    {
+        printf("Correct!\n\n");
+        score++;
+    }
+    else if (choice == 2)
+    {
+        printf("Wrong! The correct answer is On \n\n");
+    }
+    else if (choice == 3)
+    {
+        printf("Wrong! The correct answer is On \n\n");
+    }
+    else
+    {
+        printf("Invalid choice \n\n");
+    }
+
 
     // Question 3
-    printf("Question 3\n");
-    printf("Word: CLOCK\n");
-    printf("Enter the picture number: ");
-    scanf("%d", &choice);
+    printf("3: Riya went to school ____ she finished breakfast:\n");
+    printf("   1: Because\n");
+    printf("   2: After\n");
+    printf("   3: Blue\n");
 
-    if (choice == 16)
-    {
-        printf("Correct!\n\n");
-        score++;
-    }
-    else if (choice >= 1 && choice <= 20)
-    {
-        printf("Wrong! CLOCK is picture number 16.\n\n");
-    }
-    else
-    {
-        printf("Invalid choice!\n\n");
-    }
-
-    // Question 4
-    printf("Question 4\n");
-    printf("Word: DOG\n");
-    printf("Enter the picture number: ");
-    scanf("%d", &choice);
-
-    if (choice == 3)
-    {
-        printf("Correct!\n\n");
-        score++;
-    }
-    else if (choice >= 1 && choice <= 20)
-    {
-        printf("Wrong! DOG is picture number 3.\n\n");
-    }
-    else
-    {
-        printf("Invalid choice!\n\n");
-    }
-
-    // Question 5
-    printf("Question 5\n");
-    printf("Word: CUP\n");
-    printf("Enter the picture number: ");
-    scanf("%d", &choice);
-
-    if (choice == 18)
-    {
-        printf("Correct!\n\n");
-        score++;
-    }
-    else if (choice >= 1 && choice <= 20)
-    {
-        printf("Wrong! CUP is picture number 18.\n\n");
-    }
-    else
-    {
-        printf("Invalid choice!\n\n");
-    }
-
-
-    // ROUND 2
-    printf("=================================\n");
-    printf("             ROUND 2\n");
-    printf("=================================\n\n");
-
-    // Question 6
-    printf("Question 6\n");
-    printf("Word: BIRD\n");
-    printf("Enter the picture number: ");
-    scanf("%d", &choice);
-
-    if (choice == 14)
-    {
-        printf("Correct!\n\n");
-        score++;
-    }
-    else if (choice >= 1 && choice <= 20)
-    {
-        printf("Wrong! BIRD is picture number 14.\n\n");
-    }
-    else
-    {
-        printf("Invalid choice!\n\n");
-    }
-
-    // Question 7
-    printf("Question 7\n");
-    printf("Word: CAR\n");
-    printf("Enter the picture number: ");
+    printf("Enter your answer: ");
     scanf("%d", &choice);
 
     if (choice == 2)
@@ -176,296 +83,522 @@ int main()
         printf("Correct!\n\n");
         score++;
     }
-    else if (choice >= 1 && choice <= 20)
+    else if (choice == 1)
     {
-        printf("Wrong! CAR is picture number 2.\n\n");
+        printf("Wrong! The correct answer is After \n\n");
+    }
+    else if (choice == 3)
+    {
+        printf("Wrong! The correct answer is After \n\n");
     }
     else
     {
-        printf("Invalid choice!\n\n");
+        printf("Invalid choice \n\n");
     }
+
+
+    // Question 4
+    printf("4: I stayed at home ____ it was raining:\n");
+    printf("   1: Because\n");
+    printf("   2: Before\n");
+    printf("   3: Quickly\n");
+
+    printf("Enter your answer: ");
+    scanf("%d", &choice);
+
+    if (choice == 1)
+    {
+        printf("Correct!\n\n");
+        score++;
+    }
+    else if (choice == 2)
+    {
+        printf("Wrong! The correct answer is Because \n\n");
+    }
+    else if (choice == 3)
+    {
+        printf("Wrong! The correct answer is Because \n\n");
+    }
+    else
+    {
+        printf("Invalid choice \n\n");
+    }
+
+
+    // Question 5
+    printf("5: ____ the teacher entered the class, the students became quiet.\n");
+    printf("   1: Before\n");
+    printf("   2: When\n");
+    printf("   3: Although\n");
+
+    printf("Enter your answer: ");
+    scanf("%d", &choice);
+
+    if (choice == 2)
+    {
+        printf("Correct!\n\n");
+        score++;
+    }
+    else if (choice == 1)
+    {
+        printf("Wrong! The correct answer is When \n\n");
+    }
+    else if (choice == 3)
+    {
+        printf("Wrong! The correct answer is When \n\n");
+    }
+    else
+    {
+        printf("Invalid choice \n\n");
+    }
+
+
+    // Question 6
+    printf("6: The girl is ____ a book.\n");
+    printf("   1: Reading\n");
+    printf("   2: Red\n");
+    printf("   3: Slowly\n");
+
+    printf("Enter your answer: ");
+    scanf("%d", &choice);
+
+    if (choice == 1)
+    {
+        printf("Correct!\n\n");
+        score++;
+    }
+    else if (choice == 2)
+    {
+        printf("Wrong! The correct answer is Reading \n\n");
+    }
+    else if (choice == 3)
+    {
+        printf("Wrong! The correct answer is Reading \n\n");
+    }
+    else
+    {
+        printf("Invalid choice \n\n");
+    }
+
+
+    // Question 7
+    printf("7: The dog ran ____ the garden.\n");
+    printf("   1: In\n");
+    printf("   2: Happy\n");
+    printf("   3: Eat\n");
+
+    printf("Enter your answer: ");
+    scanf("%d", &choice);
+
+    if (choice == 1)
+    {
+        printf("Correct!\n\n");
+        score++;
+    }
+    else if (choice == 2)
+    {
+        printf("Wrong! The correct answer is In \n\n");
+    }
+    else if (choice == 3)
+    {
+        printf("Wrong! The correct answer is In \n\n");
+    }
+    else
+    {
+        printf("Invalid choice \n\n");
+    }
+
 
     // Question 8
-    printf("Question 8\n");
-    printf("Word: FLOWER\n");
-    printf("Enter the picture number: ");
+    printf("8: I brush my teeth ____ I go to bed.\n");
+    printf("   1: Before\n");
+    printf("   2: Blue\n");
+    printf("   3: Running\n");
+
+    printf("Enter your answer: ");
     scanf("%d", &choice);
 
-    if (choice == 13)
+    if (choice == 1)
     {
         printf("Correct!\n\n");
         score++;
     }
-    else if (choice >= 1 && choice <= 20)
+    else if (choice == 2)
     {
-        printf("Wrong! FLOWER is picture number 13.\n\n");
+        printf("Wrong! The correct answer is Before \n\n");
+    }
+    else if (choice == 3)
+    {
+        printf("Wrong! The correct answer is Before \n\n");
     }
     else
     {
-        printf("Invalid choice!\n\n");
+        printf("Invalid choice \n\n");
     }
+
 
     // Question 9
-    printf("Question 9\n");
-    printf("Word: BALL\n");
-    printf("Enter the picture number: ");
+    printf("9: She was tired, ____ she continued studying.\n");
+    printf("   1: But\n");
+    printf("   2: Water\n");
+    printf("   3: Tall\n");
+
+    printf("Enter your answer: ");
     scanf("%d", &choice);
 
-    if (choice == 6)
+    if (choice == 1)
     {
         printf("Correct!\n\n");
         score++;
     }
-    else if (choice >= 1 && choice <= 20)
+    else if (choice == 2)
     {
-        printf("Wrong! BALL is picture number 6.\n\n");
+        printf("Wrong! The correct answer is But \n\n");
+    }
+    else if (choice == 3)
+    {
+        printf("Wrong! The correct answer is But \n\n");
     }
     else
     {
-        printf("Invalid choice!\n\n");
+        printf("Invalid choice \n\n");
     }
+
 
     // Question 10
-    printf("Question 10\n");
-    printf("Word: PHONE\n");
-    printf("Enter the picture number: ");
+    printf("10: We went outside ____ the rain stopped.\n");
+    printf("   1: After\n");
+    printf("   2: Green\n");
+    printf("   3: Singing\n");
+
+    printf("Enter your answer: ");
     scanf("%d", &choice);
 
-    if (choice == 17)
+    if (choice == 1)
     {
         printf("Correct!\n\n");
         score++;
     }
-    else if (choice >= 1 && choice <= 20)
+    else if (choice == 2)
     {
-        printf("Wrong! PHONE is picture number 17.\n\n");
+        printf("Wrong! The correct answer is After \n\n");
+    }
+    else if (choice == 3)
+    {
+        printf("Wrong! The correct answer is After \n\n");
     }
     else
     {
-        printf("Invalid choice!\n\n");
+        printf("Invalid choice \n\n");
     }
 
-
-    // ROUND 3
-    printf("=================================\n");
-    printf("             ROUND 3\n");
-    printf("=================================\n\n");
 
     // Question 11
-    printf("Question 11\n");
-    printf("Word: SUN\n");
-    printf("Enter the picture number: ");
+    printf("11: The baby is crying ____ she is hungry.\n");
+    printf("   1: Because\n");
+    printf("   2: Quickly\n");
+    printf("   3: Yellow\n");
+
+    printf("Enter your answer: ");
     scanf("%d", &choice);
 
-    if (choice == 4)
+    if (choice == 1)
     {
         printf("Correct!\n\n");
         score++;
     }
-    else if (choice >= 1 && choice <= 20)
+    else if (choice == 2)
     {
-        printf("Wrong! SUN is picture number 4.\n\n");
+        printf("Wrong! The correct answer is Because \n\n");
+    }
+    else if (choice == 3)
+    {
+        printf("Wrong! The correct answer is Because \n\n");
     }
     else
     {
-        printf("Invalid choice!\n\n");
+        printf("Invalid choice \n\n");
     }
+
 
     // Question 12
-    printf("Question 12\n");
-    printf("Word: TABLE\n");
-    printf("Enter the picture number: ");
+    printf("12: He walked ____ to school.\n");
+    printf("   1: Slowly\n");
+    printf("   2: Apple\n");
+    printf("   3: Blue\n");
+
+    printf("Enter your answer: ");
     scanf("%d", &choice);
 
-    if (choice == 15)
+    if (choice == 1)
     {
         printf("Correct!\n\n");
         score++;
     }
-    else if (choice >= 1 && choice <= 20)
+    else if (choice == 2)
     {
-        printf("Wrong! TABLE is picture number 15.\n\n");
+        printf("Wrong! The correct answer is Slowly \n\n");
+    }
+    else if (choice == 3)
+    {
+        printf("Wrong! The correct answer is Slowly \n\n");
     }
     else
     {
-        printf("Invalid choice!\n\n");
+        printf("Invalid choice \n\n");
     }
+
 
     // Question 13
-    printf("Question 13\n");
-    printf("Word: CAT\n");
-    printf("Enter the picture number: ");
+    printf("13: The children played ____ the park.\n");
+    printf("   1: In\n");
+    printf("   2: Hungry\n");
+    printf("   3: Sleep\n");
+
+    printf("Enter your answer: ");
     scanf("%d", &choice);
 
-    if (choice == 11)
+    if (choice == 1)
     {
         printf("Correct!\n\n");
         score++;
     }
-    else if (choice >= 1 && choice <= 20)
+    else if (choice == 2)
     {
-        printf("Wrong! CAT is picture number 11.\n\n");
+        printf("Wrong! The correct answer is In \n\n");
+    }
+    else if (choice == 3)
+    {
+        printf("Wrong! The correct answer is In \n\n");
     }
     else
     {
-        printf("Invalid choice!\n\n");
+        printf("Invalid choice \n\n");
     }
+
 
     // Question 14
-    printf("Question 14\n");
-    printf("Word: BOTTLE\n");
-    printf("Enter the picture number: ");
+    printf("14: I will call you ____ I reach home.\n");
+    printf("   1: When\n");
+    printf("   2: Red\n");
+    printf("   3: Eating\n");
+
+    printf("Enter your answer: ");
     scanf("%d", &choice);
 
-    if (choice == 20)
+    if (choice == 1)
     {
         printf("Correct!\n\n");
         score++;
     }
-    else if (choice >= 1 && choice <= 20)
+    else if (choice == 2)
     {
-        printf("Wrong! BOTTLE is picture number 20.\n\n");
+        printf("Wrong! The correct answer is When \n\n");
+    }
+    else if (choice == 3)
+    {
+        printf("Wrong! The correct answer is When \n\n");
     }
     else
     {
-        printf("Invalid choice!\n\n");
+        printf("Invalid choice \n\n");
     }
+
 
     // Question 15
-    printf("Question 15\n");
-    printf("Word: TREE\n");
-    printf("Enter the picture number: ");
+    printf("15: She wore a jacket ____ it was cold.\n");
+    printf("   1: Because\n");
+    printf("   2: Running\n");
+    printf("   3: Green\n");
+
+    printf("Enter your answer: ");
     scanf("%d", &choice);
 
-    if (choice == 7)
+    if (choice == 1)
     {
         printf("Correct!\n\n");
         score++;
     }
-    else if (choice >= 1 && choice <= 20)
+    else if (choice == 2)
     {
-        printf("Wrong! TREE is picture number 7.\n\n");
+        printf("Wrong! The correct answer is Because \n\n");
+    }
+    else if (choice == 3)
+    {
+        printf("Wrong! The correct answer is Because \n\n");
     }
     else
     {
-        printf("Invalid choice!\n\n");
+        printf("Invalid choice \n\n");
     }
 
-
-    // ROUND 4
-    printf("=================================\n");
-    printf("             ROUND 4\n");
-    printf("=================================\n\n");
 
     // Question 16
-    printf("Question 16\n");
-    printf("Word: SHOES\n");
-    printf("Enter the picture number: ");
+    printf("16: The teacher gave us homework ____ the class ended.\n");
+    printf("   1: Before\n");
+    printf("   2: Blue\n");
+    printf("   3: Quickly\n");
+
+    printf("Enter your answer: ");
     scanf("%d", &choice);
 
-    if (choice == 19)
+    if (choice == 1)
     {
         printf("Correct!\n\n");
         score++;
     }
-    else if (choice >= 1 && choice <= 20)
+    else if (choice == 2)
     {
-        printf("Wrong! SHOES is picture number 19.\n\n");
+        printf("Wrong! The correct answer is Before \n\n");
+    }
+    else if (choice == 3)
+    {
+        printf("Wrong! The correct answer is Before \n\n");
     }
     else
     {
-        printf("Invalid choice!\n\n");
+        printf("Invalid choice \n\n");
     }
+
 
     // Question 17
-    printf("Question 17\n");
-    printf("Word: PEN\n");
-    printf("Enter the picture number: ");
+    printf("17: Rahul was hungry, ____ he ate a sandwich.\n");
+    printf("   1: So\n");
+    printf("   2: Tall\n");
+    printf("   3: Sleeping\n");
+
+    printf("Enter your answer: ");
     scanf("%d", &choice);
 
-    if (choice == 12)
+    if (choice == 1)
     {
         printf("Correct!\n\n");
         score++;
     }
-    else if (choice >= 1 && choice <= 20)
+    else if (choice == 2)
     {
-        printf("Wrong! PEN is picture number 12.\n\n");
+        printf("Wrong! The correct answer is So \n\n");
+    }
+    else if (choice == 3)
+    {
+        printf("Wrong! The correct answer is So \n\n");
     }
     else
     {
-        printf("Invalid choice!\n\n");
+        printf("Invalid choice \n\n");
     }
+
 
     // Question 18
-    printf("Question 18\n");
-    printf("Word: BOOK\n");
-    printf("Enter the picture number: ");
+    printf("18: The bird flew ____ the tree.\n");
+    printf("   1: Over\n");
+    printf("   2: Happy\n");
+    printf("   3: Eating\n");
+
+    printf("Enter your answer: ");
     scanf("%d", &choice);
 
-    if (choice == 5)
+    if (choice == 1)
     {
         printf("Correct!\n\n");
         score++;
     }
-    else if (choice >= 1 && choice <= 20)
+    else if (choice == 2)
     {
-        printf("Wrong! BOOK is picture number 5.\n\n");
+        printf("Wrong! The correct answer is Over \n\n");
+    }
+    else if (choice == 3)
+    {
+        printf("Wrong! The correct answer is Over \n\n");
     }
     else
     {
-        printf("Invalid choice!\n\n");
+        printf("Invalid choice \n\n");
     }
+
 
     // Question 19
-    printf("Question 19\n");
-    printf("Word: FISH\n");
-    printf("Enter the picture number: ");
+    printf("19: We stayed inside ____ it was raining heavily.\n");
+    printf("   1: Because\n");
+    printf("   2: Before\n");
+    printf("   3: Slowly\n");
+
+    printf("Enter your answer: ");
     scanf("%d", &choice);
 
-    if (choice == 9)
+    if (choice == 1)
     {
         printf("Correct!\n\n");
         score++;
     }
-    else if (choice >= 1 && choice <= 20)
+    else if (choice == 2)
     {
-        printf("Wrong! FISH is picture number 9.\n\n");
+        printf("Wrong! The correct answer is Because \n\n");
+    }
+    else if (choice == 3)
+    {
+        printf("Wrong! The correct answer is Because \n\n");
     }
     else
     {
-        printf("Invalid choice!\n\n");
+        printf("Invalid choice \n\n");
     }
+
 
     // Question 20
-    printf("Question 20\n");
-    printf("Word: CHAIR\n");
-    printf("Enter the picture number: ");
+    printf("20: I finished my homework ____ I watched television.\n");
+    printf("   1: Before\n");
+    printf("   2: Blue\n");
+    printf("   3: Running\n");
+
+    printf("Enter your answer: ");
     scanf("%d", &choice);
 
-    if (choice == 10)
+    if (choice == 1)
     {
         printf("Correct!\n\n");
         score++;
     }
-    else if (choice >= 1 && choice <= 20)
+    else if (choice == 2)
     {
-        printf("Wrong! CHAIR is picture number 10.\n\n");
+        printf("Wrong! The correct answer is Before \n\n");
+    }
+    else if (choice == 3)
+    {
+        printf("Wrong! The correct answer is Before \n\n");
     }
     else
     {
-        printf("Invalid choice!\n\n");
+        printf("Invalid choice \n\n");
     }
 
 
-    printf("=================================\n");
-    printf("       THANK YOU FOR COMING!\n");
-    printf("=================================\n\n");
+    // Final Result
+    printf("========================================\n");
+    printf("             GAME RESULT\n");
+    printf("========================================\n");
 
-    printf("=================================\n");
-    printf("          GAME OVER!\n");
-    printf("=================================\n");
-    printf("Your Score: %d/20\n", score);
+    printf("Your score is: %d out of 20\n", score);
+
+    if (score == 20)
+    {
+        printf("Excellent! You answered all sentences correctly \n");
+    }
+    else if (score >= 12)
+    {
+        printf("Good job! You answered most sentences correctly \n");
+    }
+    else if (score >= 1)
+    {
+        printf("Keep practicing sentence completion \n");
+    }
+    else
+    {
+        printf("Try again and practice more \n\n BEST OF LUCK \n");
+    }
+
+    printf("\n IMPORTANT MESSAGE \n\n  This game is for awareness and learning purposes only \n\n");
+    printf("\nAGAIN \n\n It cannot diagnose Developmental Language Disorder \n\n");
 
     return 0;
 }
