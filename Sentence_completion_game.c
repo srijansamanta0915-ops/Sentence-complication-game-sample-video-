@@ -11,9 +11,7 @@ int main()
 
     printf("Complete the sentence by choosing the correct word \n");
     printf("Enter the number of your answer \n\n");
-
-
-    // Question 1
+	printf("\n\n Question 1\n\n");
     printf("1: The boy is drinking ____ \n");
     printf("   1: Water\n");
     printf("   2: Running\n");
@@ -39,9 +37,7 @@ int main()
     {
         printf("Invalid choice \n\n");
     }
-
-
-    // Question 2
+    printf("\n\n Question 2\n\n");
     printf("2: The cat is sleeping ____ the chair \n");
     printf("   1: On\n");
     printf("   2: Running\n");
@@ -67,9 +63,7 @@ int main()
     {
         printf("Invalid choice \n\n");
     }
-
-
-    // Question 3
+    printf("\n\n Question 3\n\n");
     printf("3: Riya went to school ____ she finished breakfast:\n");
     printf("   1: Because\n");
     printf("   2: After\n");
@@ -95,9 +89,7 @@ int main()
     {
         printf("Invalid choice \n\n");
     }
-
-
-    // Question 4
+    printf("\n\n Question 4\n\n");
     printf("4: I stayed at home ____ it was raining:\n");
     printf("   1: Because\n");
     printf("   2: Before\n");
@@ -123,9 +115,7 @@ int main()
     {
         printf("Invalid choice \n\n");
     }
-
-
-    // Question 5
+    printf("\n\n Question 5\n\n");
     printf("5: ____ the teacher entered the class, the students became quiet.\n");
     printf("   1: Before\n");
     printf("   2: When\n");
@@ -151,9 +141,7 @@ int main()
     {
         printf("Invalid choice \n\n");
     }
-
-
-    // Question 6
+    printf("\n\n Question 6\n\n");
     printf("6: The girl is ____ a book.\n");
     printf("   1: Reading\n");
     printf("   2: Red\n");
@@ -179,9 +167,7 @@ int main()
     {
         printf("Invalid choice \n\n");
     }
-
-
-    // Question 7
+    printf("\n\n Question 7\n\n");
     printf("7: The dog ran ____ the garden.\n");
     printf("   1: In\n");
     printf("   2: Happy\n");
@@ -207,9 +193,7 @@ int main()
     {
         printf("Invalid choice \n\n");
     }
-
-
-    // Question 8
+    printf("\n\n Question 8\n\n");
     printf("8: I brush my teeth ____ I go to bed.\n");
     printf("   1: Before\n");
     printf("   2: Blue\n");
@@ -235,9 +219,7 @@ int main()
     {
         printf("Invalid choice \n\n");
     }
-
-
-    // Question 9
+    printf("\n\n Question 9\n\n");
     printf("9: She was tired, ____ she continued studying.\n");
     printf("   1: But\n");
     printf("   2: Water\n");
@@ -263,9 +245,7 @@ int main()
     {
         printf("Invalid choice \n\n");
     }
-
-
-    // Question 10
+    printf("\n\n Question 10\n\n");
     printf("10: We went outside ____ the rain stopped.\n");
     printf("   1: After\n");
     printf("   2: Green\n");
@@ -291,9 +271,7 @@ int main()
     {
         printf("Invalid choice \n\n");
     }
-
-
-    // Question 11
+    printf("\n\n Question 11\n\n");
     printf("11: The baby is crying ____ she is hungry.\n");
     printf("   1: Because\n");
     printf("   2: Quickly\n");
@@ -319,9 +297,7 @@ int main()
     {
         printf("Invalid choice \n\n");
     }
-
-
-    // Question 12
+    printf("\n\n Question 12\n\n");
     printf("12: He walked ____ to school.\n");
     printf("   1: Slowly\n");
     printf("   2: Apple\n");
@@ -347,9 +323,7 @@ int main()
     {
         printf("Invalid choice \n\n");
     }
-
-
-    // Question 13
+    printf("\n\n Question 13\n\n");
     printf("13: The children played ____ the park.\n");
     printf("   1: In\n");
     printf("   2: Hungry\n");
@@ -375,9 +349,7 @@ int main()
     {
         printf("Invalid choice \n\n");
     }
-
-
-    // Question 14
+    printf("\n\n Question 14\n\n");
     printf("14: I will call you ____ I reach home.\n");
     printf("   1: When\n");
     printf("   2: Red\n");
@@ -403,9 +375,7 @@ int main()
     {
         printf("Invalid choice \n\n");
     }
-
-
-    // Question 15
+    printf("\n\n Question 15\n\n");
     printf("15: She wore a jacket ____ it was cold.\n");
     printf("   1: Because\n");
     printf("   2: Running\n");
@@ -431,9 +401,7 @@ int main()
     {
         printf("Invalid choice \n\n");
     }
-
-
-    // Question 16
+    printf("\n\n  Question 16\n\n");
     printf("16: The teacher gave us homework ____ the class ended.\n");
     printf("   1: Before\n");
     printf("   2: Blue\n");
@@ -459,9 +427,7 @@ int main()
     {
         printf("Invalid choice \n\n");
     }
-
-
-    // Question 17
+    printf("\n\n Question 17\n\n");
     printf("17: Rahul was hungry, ____ he ate a sandwich.\n");
     printf("   1: So\n");
     printf("   2: Tall\n");
@@ -487,9 +453,7 @@ int main()
     {
         printf("Invalid choice \n\n");
     }
-
-
-    // Question 18
+    printf("\n\n Question 18\n\n");
     printf("18: The bird flew ____ the tree.\n");
     printf("   1: Over\n");
     printf("   2: Happy\n");
@@ -515,9 +479,7 @@ int main()
     {
         printf("Invalid choice \n\n");
     }
-
-
-    // Question 19
+    printf("\n\n Question 19\n\n");
     printf("19: We stayed inside ____ it was raining heavily.\n");
     printf("   1: Because\n");
     printf("   2: Before\n");
@@ -543,9 +505,7 @@ int main()
     {
         printf("Invalid choice \n\n");
     }
-
-
-    // Question 20
+    printf("\n\n Question 20\n\n");
     printf("20: I finished my homework ____ I watched television.\n");
     printf("   1: Before\n");
     printf("   2: Blue\n");
@@ -571,9 +531,7 @@ int main()
     {
         printf("Invalid choice \n\n");
     }
-
-
-    // Final Result
+    printf("\n\n   FINAL RESULT\nn");
     printf("========================================\n");
     printf("             GAME RESULT\n");
     printf("========================================\n");
