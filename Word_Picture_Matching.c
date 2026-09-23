@@ -32,14 +32,9 @@ int main()
     printf("18. [CUP]\n");
     printf("19. [SHOES]\n");
     printf("20. [BOTTLE]\n\n");
-
-
-    // ROUND 1
     printf("=================================\n");
     printf("             ROUND 1\n");
     printf("=================================\n\n");
-
-    // Question 1
     printf("Question 1\n");
     printf("Word: HOUSE\n");
     printf("Enter the picture number: ");
@@ -58,8 +53,6 @@ int main()
     {
         printf("Invalid choice!\n\n");
     }
-
-    // Question 2
     printf("Question 2\n");
     printf("Word: APPLE\n");
     printf("Enter the picture number: ");
@@ -78,8 +71,6 @@ int main()
     {
         printf("Invalid choice!\n\n");
     }
-
-    // Question 3
     printf("Question 3\n");
     printf("Word: CLOCK\n");
     printf("Enter the picture number: ");
@@ -98,8 +89,6 @@ int main()
     {
         printf("Invalid choice!\n\n");
     }
-
-    // Question 4
     printf("Question 4\n");
     printf("Word: DOG\n");
     printf("Enter the picture number: ");
@@ -118,8 +107,6 @@ int main()
     {
         printf("Invalid choice!\n\n");
     }
-
-    // Question 5
     printf("Question 5\n");
     printf("Word: CUP\n");
     printf("Enter the picture number: ");
@@ -138,14 +125,9 @@ int main()
     {
         printf("Invalid choice!\n\n");
     }
-
-
-    // ROUND 2
     printf("=================================\n");
     printf("             ROUND 2\n");
     printf("=================================\n\n");
-
-    // Question 6
     printf("Question 6\n");
     printf("Word: BIRD\n");
     printf("Enter the picture number: ");
@@ -164,8 +146,6 @@ int main()
     {
         printf("Invalid choice!\n\n");
     }
-
-    // Question 7
     printf("Question 7\n");
     printf("Word: CAR\n");
     printf("Enter the picture number: ");
@@ -184,8 +164,6 @@ int main()
     {
         printf("Invalid choice!\n\n");
     }
-
-    // Question 8
     printf("Question 8\n");
     printf("Word: FLOWER\n");
     printf("Enter the picture number: ");
@@ -204,8 +182,6 @@ int main()
     {
         printf("Invalid choice!\n\n");
     }
-
-    // Question 9
     printf("Question 9\n");
     printf("Word: BALL\n");
     printf("Enter the picture number: ");
@@ -224,8 +200,6 @@ int main()
     {
         printf("Invalid choice!\n\n");
     }
-
-    // Question 10
     printf("Question 10\n");
     printf("Word: PHONE\n");
     printf("Enter the picture number: ");
@@ -244,14 +218,11 @@ int main()
     {
         printf("Invalid choice!\n\n");
     }
-
-
-    // ROUND 3
     printf("=================================\n");
     printf("             ROUND 3\n");
     printf("=================================\n\n");
 
-    // Question 11
+    
     printf("Question 11\n");
     printf("Word: SUN\n");
     printf("Enter the picture number: ");
@@ -270,8 +241,6 @@ int main()
     {
         printf("Invalid choice!\n\n");
     }
-
-    // Question 12
     printf("Question 12\n");
     printf("Word: TABLE\n");
     printf("Enter the picture number: ");
@@ -290,8 +259,6 @@ int main()
     {
         printf("Invalid choice!\n\n");
     }
-
-    // Question 13
     printf("Question 13\n");
     printf("Word: CAT\n");
     printf("Enter the picture number: ");
@@ -310,8 +277,6 @@ int main()
     {
         printf("Invalid choice!\n\n");
     }
-
-    // Question 14
     printf("Question 14\n");
     printf("Word: BOTTLE\n");
     printf("Enter the picture number: ");
@@ -330,8 +295,6 @@ int main()
     {
         printf("Invalid choice!\n\n");
     }
-
-    // Question 15
     printf("Question 15\n");
     printf("Word: TREE\n");
     printf("Enter the picture number: ");
@@ -350,14 +313,10 @@ int main()
     {
         printf("Invalid choice!\n\n");
     }
-
-
-    // ROUND 4
     printf("=================================\n");
     printf("             ROUND 4\n");
     printf("=================================\n\n");
-
-    // Question 16
+    
     printf("Question 16\n");
     printf("Word: SHOES\n");
     printf("Enter the picture number: ");
@@ -376,8 +335,6 @@ int main()
     {
         printf("Invalid choice!\n\n");
     }
-
-    // Question 17
     printf("Question 17\n");
     printf("Word: PEN\n");
     printf("Enter the picture number: ");
@@ -396,8 +353,6 @@ int main()
     {
         printf("Invalid choice!\n\n");
     }
-
-    // Question 18
     printf("Question 18\n");
     printf("Word: BOOK\n");
     printf("Enter the picture number: ");
@@ -416,8 +371,6 @@ int main()
     {
         printf("Invalid choice!\n\n");
     }
-
-    // Question 19
     printf("Question 19\n");
     printf("Word: FISH\n");
     printf("Enter the picture number: ");
@@ -436,8 +389,6 @@ int main()
     {
         printf("Invalid choice!\n\n");
     }
-
-    // Question 20
     printf("Question 20\n");
     printf("Word: CHAIR\n");
     printf("Enter the picture number: ");
